@@ -93,14 +93,7 @@
   - 資訊委外安全 
 - 重點提示:
   - 1.個人資料保護
-# 第份模擬試題:存取控制(Access Controls)
-- 範圍:
-  - 第6單元存取控制與加解密技術
-  - 單元二:ISMS 與 ISO 27001
-- 重點提示:
-  - 1.
-  - 2.  
-  - 
+
 # 第份模擬試題:存取控制(Access Controls)
 - 範圍:
   - 第6單元存取控制與加解密技術
@@ -117,12 +110,26 @@
     - Biometric authentication生物特徵鑑別
     - Password Authentication
     - 一次性通行碼(One-time Password)或稱動態通行碼  ==> 同步式 vs  非同步式
-    - 詰問與回應身分鑑別技術
-
-
-
-
-
-  - 2.  
+    - 詰問與回應身分鑑別技術 Challenge–response authentication
+      - https://en.wikipedia.org/wiki/Challenge%E2%80%93response_authentication#:~:text=In%20computer%20security,%20challenge-response%20authentication%20is
+      - https://www.techtarget.com/searchsecurity/definition/challenge-response-system#:~:text=In%20computer%20security,%20challenge-response%20authentication%20is
 - 延伸閱讀:
   - FIDO |Fast Identity Online |快速認證身分的機制
+  - HTTP認證（HTTP Authentication） 
+    - RFC
+      - RFC 2617 HTTP Authentication: Basic and Digest Access Authentication
+      - RFC 7617 The 'Basic' HTTP Authentication Scheme
+      - RFC 7235 Hypertext Transfer Protocol (HTTP/1.1): Authentication
+    - Basic: RFC 2617 (1999) -> RFC 7617 (2015)
+    - Digest: RFC 2069 (1997) -> RFC 2617 (1999) -> RFC 7617 (2015)
+    - OAuth 1.0 (Twitter, 2007)
+    - OAuth 2.0 (2012)
+      - Bearer (OAuth 2.0): RFC 6750 (2012)
+    - JSON Web Tokens (JWT): RFC 7519 (2015) ==> Token Authentication
+    - 參考資料
+      - https://carsonwah.github.io/http-authentication.html
+      - https://developer.mozilla.org/en-US/docs/Web/HTTP/Authentication
+  - Windows Authentication
+    - https://learn.microsoft.com/zh-tw/windows-server/security/windows-authentication/windows-authentication-overview 
+  - Linux  Authentication
+    - Pluggable Authentication Modules (PAM) 
