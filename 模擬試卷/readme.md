@@ -37,3 +37,29 @@
   - 1.
   - 2.
   - 3.
+# 第五份模擬試題:安全營運 Operations security (OPSEC)
+- 範圍: 第4單元作業安全
+- 重點提示:
+  - 1.軟硬體維護
+    - 硬體維護
+    - 軟體安裝、修補及更新  ==> Patch Management
+    - 軟硬體資產管理  ==> Asset Management
+    - 網路及通訊線路維護
+  - 2.組態管理 | Configuration Management
+    - 組態管理 ==> Top 10 Misconfiguration 
+    - 組態變更管理 Change Management
+    - 政府組態基準(GCB)導入
+    - VANS 政府機關弱點通報機制
+  - 3.
+
+監控與問題管理
+異常的監控
+問題管理
+弱點掃描
+滲透測試
+稽核作業
+防範社交工程攻擊
+![image](https://github.com/user-attachments/assets/a7a0c247-e0eb-4025-8e12-4dbf17824100)
+
+  - 2.
+  - 3.
