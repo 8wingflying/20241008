@@ -97,13 +97,14 @@
 # 第份模擬試題:存取控制(Access Controls)
 - 範圍:
   - 第6單元存取控制與加解密技術
-  - 附表十
+  - 資通安全責任等級分級辦法| 附表十 資通系統防護基準 | `存取控制`構面
 - 重點提示:
   - 1.
   - 2.  
 # 第份模擬試題:身分驗證(Authentication)
 - 範圍:
   - 第6單元存取控制與加解密技術
+  - 通安全責任等級分級辦法| 附表十 資通系統防護基準 | `識別與鑑別`構面
 - 重點提示:
   - 1.Authentication Factor ==> MFA |  Multi-Factor Authentication| 多因子認證 | 多因素認證 |多重要素驗證
   - 2.各種身分鑑別技術
@@ -114,7 +115,10 @@
       - https://en.wikipedia.org/wiki/Challenge%E2%80%93response_authentication#:~:text=In%20computer%20security,%20challenge-response%20authentication%20is
       - https://www.techtarget.com/searchsecurity/definition/challenge-response-system#:~:text=In%20computer%20security,%20challenge-response%20authentication%20is
 - 延伸閱讀:
-  - FIDO |Fast Identity Online |快速認證身分的機制
+  - FIDO |Fast Identity Online |快速認證身分的機制  ==> 無密碼時代
+    - https://www.bnext.com.tw/article/68897/cathay-holdings-fido
+    - https://blog.tpisoftware.com/dx/what-is-fido/#
+    - FIDO認證標準 
   - HTTP認證（HTTP Authentication） 
     - RFC
       - RFC 2617 HTTP Authentication: Basic and Digest Access Authentication
@@ -131,5 +135,69 @@
       - https://developer.mozilla.org/en-US/docs/Web/HTTP/Authentication
   - Windows Authentication
     - https://learn.microsoft.com/zh-tw/windows-server/security/windows-authentication/windows-authentication-overview 
-  - Linux  Authentication
+  - Linux Authentication
     - Pluggable Authentication Modules (PAM) 
+
+# 第份模擬試題:密碼學
+- 範圍:
+  - 第6單元存取控制與加解密技術
+- 重點提示:
+
+# 第份模擬試題:網路安全(Network Security)
+- 範圍:第7單元網路安全與實體安全
+- 重點提示:
+  - 1.網路安全防禦技術
+    - 防火牆
+    - 入侵偵測與防禦系統
+    - 虛擬私有網路 | VPN | Virtual Private Network
+    - 防毒系統
+    - 垃圾郵件過濾系統
+    - 端點偵測及回應系統 | EDR 
+  - 2.網路區域規劃
+  - 3.網路連線安全
+    - HTTP vs HTTPs
+    - FTP vs SFTP
+    - TELNET vs SSH
+    - DNS vs DNSSec
+    - IP vs IPsec
+    - netstat指令
+  - 4.雲端運算安全
+# 第份模擬試題:實體安全(Physical Security)
+- 範圍:第7單元網路安全與實體安全
+  - CNS/ISO 27001:2022/27002:2022 == > 實體環境控制措施 (14)  Physical controls  (7.1-7.14)
+- 重點提示:
+# 第份模擬試題:
+- 範圍:
+  - 第8單元應用程式安全
+- 重點提示:
+  - 1.應用程式安全威脅
+    - 緩衝區溢位(Buffer overflow)
+    - 惡意程式(Malware)
+    - 邏輯炸彈
+    - 隱藏通道(Covert Channel)
+    - 輸入攻擊
+  - 2.軟體開發生命週期安全| `Secure` Software Development Life Cycle(SSDLC)
+    - 資通安全責任等級分級辦法 附表十 資通系統防護基準 ==>  
+  - 3.應用程式安全控制
+    - 變更控制
+    - 職責區隔
+    - 程式庫維護
+    - 應用程式安全檢測
+    - 行動應用程式安全
+  - 4.Web應用程式安全
+  - 延伸閱讀
+    - Cloud-Native  
+# 第份模擬試題:Web應用程式安全
+- 範圍:
+  - 第10單元資通安全事件通報及應變
+- 重點提示:
+# 第份模擬試題:資通安全健診
+- 範圍:
+  - 第9單元資通安全健診
+- 重點提示:
+
+# 第份模擬試題:資通安全事件通報及應變
+- 範圍:
+  - 第10單元資通安全事件通報及應變
+- 重點提示:
+
